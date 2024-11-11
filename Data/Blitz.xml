@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Characters>
+    <Character Id="0" Name="Ira, Crimson Haze" Health="20">
+        True
+    </Character>
+    <!-- Welcome to Wrathe-->
+    <Character Id="1" Name ="Rhinar" Health="20">
+        True
+    </Character>
+    <Character Id="2" Name="Bravo" Health="20">
+        False
+    </Character>
+    <Character Id="3" Name="Katsu" Health="20">
+        False
+    </Character>
+    <Character Id="4" Name="Dorinthea" Health="20">
+        False
+    </Character>
+    <!--Arcane Rising-->
+    <Character Id="5" Name="Dash" Health="20">
+        False
+    </Character>
+    <Character Id="6" Name="Azalea" Health="20">
+        False
+    </Character>
+    <Character Id="7" Name="Viserai" Health="20">
+        True
+    </Character>
+    <Character Id="8" Name="Kano" Health="15">
+
+    </Character>
+    <!--Crucible of War-->
+    <Character Id="9" Name="Kayo, Berserker Runt" Health="19">
+        False
+    </Character>
+    <Character Id="10" Name="Benji, the Piercing Win" Health="17">
+        False
+    </Character>
+    <Character Id="11" Name="Shiyana, Diamond Gemini" Health="20">
+        False
+    </Character>
+    <Character Id="12" Name="Data Doll MkII" Health="20">
+        False
+    </Character>
+    <Character Id="13" Name="Kavdaen, Trader of Skins" Health="20">
+        False
+    </Character>
+    <!--Monarch-->
+    <Character Id="14" Name="Prism" Health="20">
+
+    </Character>
+    <Character Id="15" Name="Boltyn" Health="20">
+        False
+    </Character>
+    <Character Id="16" Name="Levia" Health="20">
+        False
+    </Character>
+    <Character Id="17" Name="Chane" Health="20">
+        </Character>
+    <!--Tales of Aria-->
+    <Character Id="18" Name="Oldhim" Health="20">
+
+    </Character>
+    <Character Id="19" Name="Lexi" Health="20">
+
+    </Character>
+    <Character Id="20" Name="Briar" Health="20">
+
+    </Character>
+    <!--Everfest-->
+    <Character Id="21" Name="Valda Brghtaxe" Health="20">
+
+    </Character>
+    <Character Id="22" Name="Genis Wotchuneed" Health="20">
+
+    </Character>
+    <Character Id="23" Name="Iyslander" Health="18">
+
+    </Character>
+    <!--Uprising-->
+    <Character Id="24" Name="Dromai" Health="20">
+
+    </Character>
+    <Character Id="25" Name="Fai" Health="20">
+
+    </Character>
+    <!--Dynasty-->
+    <Character Id="26" Name="Emperor, Dracai of Aesir" Health="15">
+
+    </Character>
+    <Character Id="27" Name="Yoji, Royal Protector" Health="22">
+
+    </Character>
+    <Character Id="28" Name="Arakni" Health="20">
+
+    </Character>
+    <!--Outsiders-->
+    <Character Id="29" Name="Uzuri" Health="20">
+
+    </Character>
+    <Character Id="30" Name="Arakni, Solitary Confinement" Health="19">
+
+    </Character>
+    <Character Id="31" Name="Riptide" Health="19">
+
+    </Character>
+    <!--Dusk till Dawn-->
+    <Character Id="32" Name="Prism, Advent of Thrones" Health="16">
+
+    </Character>
+    <Character Id="33" Name="Vynnset" Health="20">
+
+    </Character>
+    <!--Bright Lights-->
+    <Character Id="34" Name="Dash, Datatbase" Health="18">
+
+    </Character>
+    <Character Id="35" Name="Maxx Nitro" Health="20">
+
+    </Character>
+    <Character Id="36" Name="Teklovossen" Health="20">
+
+    </Character>
+    <!--Round the Table-->
+    <Character Id="37" Name="Professor Teklovossen" Health="20">
+
+    </Character>
+    <Character Id="38" Name="Brevant, Civic Protector" Health="20">
+
+    </Character>
+    <Character Id="39" Name="Melody, Sing-along" Health="20">
+
+    </Character>
+     <!--Heavy Hitters-->
+     
+     <!--Part the Mistveil-->
+     <!--Rosetta-->
+     <!--Happy 5 years!-->
+     <!--Jarl Armoury deck-->
+     <!--The Hunted-->
+</Characters>
