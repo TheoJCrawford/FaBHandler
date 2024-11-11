@@ -36,106 +36,125 @@
     <Character Id="10" Name="Benji, the Piercing Win" Health="17">
         False
     </Character>
-    <Character Id="11" Name="Shiyana, Diamond Gemini" Health="20">
+    <Character Id="11" Name="Kassai, Cintari Sellsword" Health="20">
+
+    </Character>
+    <Character Id="12" Name="Shiyana, Diamond Gemini" Health="20">
         False
     </Character>
-    <Character Id="12" Name="Data Doll MkII" Health="20">
+    <Character Id="13" Name="Data Doll MkII" Health="20">
         False
     </Character>
-    <Character Id="13" Name="Kavdaen, Trader of Skins" Health="20">
+    <Character Id="14" Name="Kavdaen, Trader of Skins" Health="20">
         False
     </Character>
     <!--Monarch-->
-    <Character Id="14" Name="Prism" Health="20">
+    <Character Id="15" Name="Prism" Health="20">
 
     </Character>
-    <Character Id="15" Name="Boltyn" Health="20">
+    <Character Id="16" Name="Boltyn" Health="20">
         False
     </Character>
-    <Character Id="16" Name="Levia" Health="20">
+    <Character Id="17" Name="Levia" Health="20">
         False
     </Character>
-    <Character Id="17" Name="Chane" Health="20">
+    <Character Id="18" Name="Chane" Health="20">
         </Character>
     <!--Tales of Aria-->
-    <Character Id="18" Name="Oldhim" Health="20">
+    <Character Id="19" Name="Oldhim" Health="20">
 
     </Character>
-    <Character Id="19" Name="Lexi" Health="20">
+    <Character Id="20" Name="Lexi" Health="20">
 
     </Character>
-    <Character Id="20" Name="Briar" Health="20">
+    <Character Id="21" Name="Briar" Health="20">
 
     </Character>
     <!--Everfest-->
-    <Character Id="21" Name="Valda Brghtaxe" Health="20">
+    <Character Id="22" Name="Valda Brghtaxe" Health="20">
 
     </Character>
-    <Character Id="22" Name="Genis Wotchuneed" Health="20">
+    <Character Id="23" Name="Genis Wotchuneed" Health="20">
 
     </Character>
-    <Character Id="23" Name="Iyslander" Health="18">
+    <Character Id="24" Name="Iyslander" Health="18">
 
     </Character>
     <!--Uprising-->
-    <Character Id="24" Name="Dromai" Health="20">
+    <Character Id="25" Name="Dromai" Health="20">
 
     </Character>
-    <Character Id="25" Name="Fai" Health="20">
+    <Character Id="26" Name="Fai" Health="20">
 
     </Character>
     <!--Dynasty-->
-    <Character Id="26" Name="Emperor, Dracai of Aesir" Health="15">
+    <Character Id="27" Name="Emperor, Dracai of Aesir" Health="15">
 
     </Character>
-    <Character Id="27" Name="Yoji, Royal Protector" Health="22">
+    <Character Id="28" Name="Yoji, Royal Protector" Health="22">
 
     </Character>
-    <Character Id="28" Name="Arakni" Health="20">
+    <Character Id="29" Name="Arakni" Health="20">
 
     </Character>
     <!--Outsiders-->
-    <Character Id="29" Name="Uzuri" Health="20">
+    <Character Id="30" Name="Uzuri" Health="20">
 
     </Character>
-    <Character Id="30" Name="Arakni, Solitary Confinement" Health="19">
+    <Character Id="31" Name="Arakni, Solitary Confinement" Health="19">
 
     </Character>
-    <Character Id="31" Name="Riptide" Health="19">
+    <Character Id="32" Name="Riptide" Health="19">
 
     </Character>
     <!--Dusk till Dawn-->
-    <Character Id="32" Name="Prism, Advent of Thrones" Health="16">
+    <Character Id="33" Name="Prism, Advent of Thrones" Health="16">
 
     </Character>
-    <Character Id="33" Name="Vynnset" Health="20">
+    <Character Id="34" Name="Vynnset" Health="20">
 
     </Character>
     <!--Bright Lights-->
-    <Character Id="34" Name="Dash, Datatbase" Health="18">
+    <Character Id="35" Name="Dash, Datatbase" Health="18">
 
     </Character>
-    <Character Id="35" Name="Maxx Nitro" Health="20">
+    <Character Id="36" Name="Maxx Nitro" Health="20">
 
     </Character>
-    <Character Id="36" Name="Teklovossen" Health="20">
+    <Character Id="37" Name="Teklovossen" Health="20">
 
     </Character>
     <!--Round the Table-->
-    <Character Id="37" Name="Professor Teklovossen" Health="20">
+    <Character Id="38" Name="Professor Teklovossen" Health="20">
 
     </Character>
-    <Character Id="38" Name="Brevant, Civic Protector" Health="20">
+    <Character Id="39" Name="Brevant, Civic Protector" Health="20">
 
     </Character>
-    <Character Id="39" Name="Melody, Sing-along" Health="20">
+    <Character Id="40" Name="Melody, Sing-along" Health="20">
 
     </Character>
      <!--Heavy Hitters-->
-     
+     <Character Id="41" Name="Kayo">False</Character>
+     <Character Id="42" Name="Betsy">False</Character>
+     <Character Id="43" Name="Victor Goldmane">False</Character>
+     <Character Id="44" Name="Kassai">False</Character>
+     <Character Id="45" Name="Olympia">False</Character>
      <!--Part the Mistveil-->
+     <Character Id="46" Name="Nuu">False</Character>
+     <Character Id="47" Name="Engima">False</Character>
+     <Character Id="48" Name="Zen">True</Character>
+     <Character Id="49" Name="Engima, New Moon">False</Character>
      <!--Rosetta-->
-     <!--Happy 5 years!-->
-     <!--Jarl Armoury deck-->
+     <Character Id="50" Name="Florian">False</Character>
+     <Character Id="51" Name="Aurora">False</Character>
+     <Character Id="52" Name="Verdance">Flase</Character>
+     <Character Id="53" Name="Oscilio"></Character>
+     <!--Convention Promo!-->
+     <Character Id="54" Name="Blaze, Firemind" Health="17">False</Character>
+     <Character Id="55" Name="Taylor" Health="18">False</Character>
+     <Character Id="56" Name="Yorick, Weaver of Tales" Health="20">False</Character>
+     <!--First Strike block 1-->
+     <Character Id="57" Name="Terra" Health="20">False</Character>
      <!--The Hunted-->
 </Characters>

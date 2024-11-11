@@ -29,6 +29,9 @@ class Character():
         mylist = []
 
         for character in data:
+            mylist.append(character.tag("Name").text)
+
+        return mylist
 
 
     def LoadXML(self, Mode="Blitz"):
