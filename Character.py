@@ -29,7 +29,7 @@ class Character():
         mylist = []
 
         for character in data:
-            mylist.append(character.tag("Name").text)
+            mylist.append(character.tag("Id").text)
 
         return mylist
 
