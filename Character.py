@@ -14,22 +14,22 @@ class Character():
     def LoadCharacterAttr(self, Mode="Blitz", id=0, target="Name"):
         data = self.LoadXML(Mode)
         for character in data.findall("Character"):
-            if character.tag.find("Id").text == str(id):
+            if character.get("Id") == str(id):
                #As there are only 3 values it could be after,
                match target:
                    case "Name":
-                       return character.tag.find(target).text
+                       return character.get(target)
                    case "Health":
-                       return int(character.tag.find(target).text)
+                       return int(character.get(target))
                    case _:
-                       return bool(character.text)
+                       print("I don't think I have that")
 
     def LoadCharacterList(self, Mode="Blitz"):
         data = self.LoadXML(Mode)
         mylist = []
 
         for character in data:
-            mylist.append(character.tag("Id").text)
+            mylist.append(character.get("Name"))
 
         return mylist
 

@@ -1,5 +1,5 @@
 from PyQt5.QtCore import QSize, Qt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QHBoxLayout, QWidget, QLabel
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QHBoxLayout, QWidget, QLabel, QVBoxLayout
 from PyQt5.QtGui import QPalette, QColor
 import sys
 from Character import Character
@@ -18,10 +18,14 @@ class MainWindow(QMainWindow):
         decButton.clicked.connect(self.LowerHealth)
         incButton.clicked.connect(self.RaiseHealth)
         
-
         HealthMonitor.addWidget(decButton)
         HealthMonitor.addWidget(self.healthLabel)
         HealthMonitor.addWidget(incButton)
+
+        primLayout = QVBoxLayout()
+        self.Characer = QLabel(self.myCharacter.CharName)
+        btnResetBtn = QPushButton("Reset")
+        btnCharangeChar = QPushButton("Change Character")
 
 
         widget = QWidget()
