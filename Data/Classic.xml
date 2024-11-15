@@ -1,145 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--While the heroes are listed in the sets they were released in, I am placing hte LL status inside the book-->
 <Characters>
     <!-- Welcome to Wrathe-->
-    <Character Id="0" Name="Rhinar, Reckless Rampage" Health="40">
-        False
-    </Character>
-    <Character Id="1" Name="Bravo, Showstopper" Health="40">
-        False
-    </Character>
-    <Character Id="2" Name="Katsu, the Wanderer" Health="40">
-        False
-    </Character>
-    <Character Id="3" Name="Dorinthea Ironsong" Health="40">
-        False
-    </Character>
-    <!--Arcane Rising-->
-     <Character Id="4" Name="Dash, Inventor Extraordinaire" Health="40">
-        False
-     </Character>
-     <Character Id="5" Name="Azalea, Ace in the Hole" Health="40">
-        False
-     </Character>
-     <Character Id="6" Name="Viserai, Rune Blood" Health="40">
-        False
-     </Character>
-     <Character Id="7" Name="Kano, Dracai of Aether" Health="30">
-        False
-     </Character>
-     <!--Crucible of War-->
-     <!--Monarch-->
-     <Character Id="8" Name="Prism, Sculptor of Arc Light" Health="40">
-        True
-     </Character>
-     <Character Id="9" Name="Ser Boltyn, Breaker of Dawn" Health="40">
-        False
-     </Character>
-     <Character Id="10" Name="Levia, Shadowborn Abomination" Health="40">
-        False
-     </Character>
-     <Character Id="11" Name="Chane, Bound by Shadow" Health="40">
-        False
-     </Character>
-     <!--Tales of Aria-->
-     <Character Id="12" Name="Oldhim, Grandfather of Eternity" Health="40">
-        False
-     </Character>
-     <Character Id="13" Name="Lexi, Livewire" Health="40">
-        True
-     </Character>
-     <Character Id="14" Name="Briar, Warden of Thorns" Health="40">
-        True
-     </Character>
-     <!--Everfest-->
-     <Character Id="15" Name="Bravo, Star of the Show" Health="40">
-        True
-     </Character>
-     <!--Uprising-->
-     <Character Id="16" Name="Dromai, Ash Artist" Health="40">
-        True
-     </Character>
-     <Character Id="17" Name="Fai, Rising Rebellion" Health="40">
-        False
-     </Character>
-     <Character Id="18" Name="Iyslander, Stormbinder" Health="36">
-        True
-     </Character>
-     <!--Dynasty-->
-     <Character Id="19" Name="Arakni, Huntsman" Health="40">
-        False
-     </Character>
-     <!--Outsiders-->
-     <Character Id="20" Name="Uzuri, Switchblade" Health="40">
-        False
-     </Character>
-     <Character Id="21" Name="Riptide, Lurker of the Deep" Health="38">
-        False
-     </Character>
-     <!--Dusk till Dawn-->
-     <Character Id="22" Name="Prism, Awakener of Sol" Health="32">
-        False
-     </Character>
-     <Character Id="23" Name="Vynnset, Iron Maiden" Health="40">
-        False
-     </Character>
-     <!--Bright Lights-->
-     <Character Id="24" Name="Dash I/O" Health="36">
-        False
-     </Character>
-     <Character Id="25" Name="Maxx 'The Hype' Nitro" Health="40">
-        False
-     </Character>
-     <Character Id="26" Name="Teklovossen, Esteemed Magnate" Health="40">
-        False
-     </Character>
-     <!--Round the Table-->
-     <!--Heavy Hitters-->
-     <Character Id="27" Name="Kayo, Armed And Dangerous" Health="40">
-        False
-     </Character>
-     ><Character Id="28" Name="Betsy, Skin in the Game" Health="40">
-        False
-     </Character>
-     <Character Id="29" Name="Victor Goldmane, High and Mighty" Health="40">
-        False
-     </Character>
-     <Character Id="30" Name="Kassai of the Golden Sands" Health="40">
-        False
-     </Character>
-     <Character Id="31" Name="Olympia, Prized Fighter" Health="40">
-        False
-     </Character>
-     <!--Part the Mistveil-->
-     <Character Id="32" Name="Nuu, Alluring Desire" Health="40">
-        False
-     </Character>
-     <Character Id="33" Name="Enigma, Ledger of Ancestry" Health="40">
-        False
-     </Character>
-     <Character Id="34" Name="Zen, Tamer of Purpose" Health="40">
-        False
-     </Character>
-     <!--Rosetta-->
-     <Character Id="35" Name="Florian, Rotwood Harbinger" Health="40">
-        False
-     </Character>
-     <Character Id="36" Name="Aurora, Shooting Star" Health="40">
-        False
-     </Character>
-     <Character Id="37" Name="Verdance, Thorn of the Rose" Health="40">
-        False
-     </Character>
-     <Character Id="38" Name="Oscilio, Constella Intelligence" Health="36">
-        False
-     </Character>
-     <!--Happy 5 years!-->
-     <Character Id="39" Name="Ira, Scarlet Revenge" Health="40">
-        False
-     </Character>
-     <!--Jarl Armoury deck-->
-     <Character Id="41" name="Jarl Vetreiði" Health="40">
-        False
-     </Character>
-     <!--The Hunted-->
+    <Character Id="0" Name="Rhinar, Reckless Rampage" Health="40" Status="False" />
+    <Character Id="1" Name="Bravo, Showstopper" Health="40" Status="False" />
+    <Character Id="2" Name="Katsu, the Wanderer" Health="40" Status="False" />
+    <Character Id="3" Name="Dorinthea Ironsong" Health="40" Status="False" />
+    
+    <!-- Arcane Rising -->
+    <Character Id="4" Name="Dash, Inventor Extraordinaire" Health="40" Status="False" />
+    <Character Id="5" Name="Azalea, Ace in the Hole" Health="40" Status="False" />
+    <Character Id="6" Name="Viserai, Rune Blood" Health="40" Status="False" />
+    <Character Id="7" Name="Kano, Dracai of Aether" Health="30" Status="False" />
+    
+    <!-- Monarch -->
+    <Character Id="8" Name="Prism, Sculptor of Arc Light" Health="40" Status="True" />
+    <Character Id="9" Name="Ser Boltyn, Breaker of Dawn" Health="40" Status="False" />
+    <Character Id="10" Name="Levia, Shadowborn Abomination" Health="40" Status="False" />
+    <Character Id="11" Name="Chane, Bound by Shadow" Health="40" Status="False" />
+    
+    <!-- Tales of Aria -->
+    <Character Id="12" Name="Oldhim, Grandfather of Eternity" Health="40" Status="False" />
+    <Character Id="13" Name="Lexi, Livewire" Health="40" Status="True" />
+    <Character Id="14" Name="Briar, Warden of Thorns" Health="40" Status="True" />
+    
+    <!-- Everfest -->
+    <Character Id="15" Name="Bravo, Star of the Show" Health="40" Status="True" />
+    
+    <!-- Uprising -->
+    <Character Id="16" Name="Dromai, Ash Artist" Health="40" Status="True" />
+    <Character Id="17" Name="Fai, Rising Rebellion" Health="40" Status="False" />
+    <Character Id="18" Name="Iyslander, Stormbinder" Health="36" Status="True" />
+    
+    <!-- Dynasty -->
+    <Character Id="19" Name="Arakni, Huntsman" Health="40" Status="False" />
+    
+    <!-- Outsiders -->
+    <Character Id="20" Name="Uzuri, Switchblade" Health="40" Status="False" />
+    <Character Id="21" Name="Riptide, Lurker of the Deep" Health="38" Status="False" />
+    
+    <!-- Dusk till Dawn -->
+    <Character Id="22" Name="Prism, Awakener of Sol" Health="32" Status="False" />
+    <Character Id="23" Name="Vynnset, Iron Maiden" Health="40" Status="False" />
+    
+    <!-- Bright Lights -->
+    <Character Id="24" Name="Dash I/O" Health="36" Status="False" />
+    <Character Id="25" Name="Maxx 'The Hype' Nitro" Health="40" Status="False" />
+    <Character Id="26" Name="Teklovossen, Esteemed Magnate" Health="40" Status="False" />
+    
+    <!-- Heavy Hitters -->
+    <Character Id="27" Name="Kayo, Armed And Dangerous" Health="40" Status="False" />
+    <Character Id="28" Name="Betsy, Skin in the Game" Health="40" Status="False" />
+    <Character Id="29" Name="Victor Goldmane, High and Mighty" Health="40" Status="False" />
+    <Character Id="30" Name="Kassai of the Golden Sands" Health="40" Status="False" />
+    <Character Id="31" Name="Olympia, Prized Fighter" Health="40" Status="False" />
+    
+    <!-- Part the Mistveil -->
+    <Character Id="32" Name="Nuu, Alluring Desire" Health="40" Status="False" />
+    <Character Id="33" Name="Enigma, Ledger of Ancestry" Health="40" Status="False" />
+    <Character Id="34" Name="Zen, Tamer of Purpose" Health="40" Status="False" />
+    
+    <!-- Rosetta -->
+    <Character Id="35" Name="Florian, Rotwood Harbinger" Health="40" Status="False" />
+    <Character Id="36" Name="Aurora, Shooting Star" Health="40" Status="False" />
+    <Character Id="37" Name="Verdance, Thorn of the Rose" Health="40" Status="False" />
+    <Character Id="38" Name="Oscilio, Constella Intelligence" Health="36" Status="False" />
+    
+    <!-- Happy 5 years! -->
+    <Character Id="39" Name="Ira, Scarlet Revenge" Health="40" Status="False" />
+    
+    <!-- Jarl Armoury deck -->
+    <Character Id="41" Name="Jarl Vetreiði" Health="40" Status="False" />
 </Characters>
