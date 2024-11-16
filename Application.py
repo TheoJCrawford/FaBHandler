@@ -1,5 +1,5 @@
 from PyQt5.QtCore import QSize, Qt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QHBoxLayout, QWidget, QLabel, QVBoxLayout
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QHBoxLayout, QWidget, QLabel, QVBoxLayout, QWindow
 from PyQt5.QtGui import QPalette, QColor
 import sys
 from Character import Character
@@ -47,6 +47,16 @@ class MainWindow(QMainWindow):
         else:
             self.healthLabel.setText("You have lost!")
     
+
+class SelectWindow(QWindow):
+    def __init__(self):
+        super.__init__(self)
+        self.ChangeButton = QPushButton("Blitz")
+        
+        SelectWindow = QVBoxLayout()
+        SelectWindow.addWidget(self.ChangeButton)
+
+
 
 
 app = QApplication(sys.argv)

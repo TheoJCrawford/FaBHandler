@@ -21,6 +21,8 @@ class Character():
                        return character.get(target)
                    case "Health":
                        return int(character.get(target))
+                   case "Status":
+                       return character.get(target) == "True"
                    case _:
                        print("I don't think I have that")
 
