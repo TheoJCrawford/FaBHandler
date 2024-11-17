@@ -16,7 +16,7 @@ class MainWindow(QMainWindow):
         incButton = QPushButton("+")
 
         decButton.clicked.connect(self.LowerHealth)
-        incButton.clicked.connect(self.RaiseHealth)
+        incButton.clicked.connect(self.raise_health)
         
         HealthMonitor.addWidget(decButton)
         HealthMonitor.addWidget(self.healthLabel)
@@ -35,13 +35,13 @@ class MainWindow(QMainWindow):
         self.setFixedSize(QSize(400,300))
     def LowerHealth(self):
         self.myCharacter.health-=1
-        self.UpdateHealthText()
+        self.update_health_text()
 
-    def RaiseHealth(self):
+    def raise_health(self):
         self.myCharacter.health += 1
-        self.UpdateHealthText()
+        self.update_health_text()
 
-    def UpdateHealthText(self):
+    def update_health_text(self):
         if(self.myCharacter.health > 0):
             self.healthLabel.setText(str(self.myCharacter.health))
         else:

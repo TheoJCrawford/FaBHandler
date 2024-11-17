@@ -12,7 +12,7 @@ class Character():
 
 
     def LoadCharacterAttr(self, Mode="Blitz", id=0, target="Name"):
-        data = self.LoadXML(Mode)
+        data = self.load_xml(Mode)
         for character in data.findall("Character"):
             if character.get("Id") == str(id):
                #As there are only 3 values it could be after,
@@ -26,8 +26,8 @@ class Character():
                    case _:
                        print("I don't think I have that")
 
-    def LoadCharacterList(self, Mode="Blitz"):
-        data = self.LoadXML(Mode)
+    def load_character_list(self, Mode="Blitz"):
+        data = self.load_xml(Mode)
         mylist = []
 
         for character in data:
@@ -36,7 +36,7 @@ class Character():
         return mylist
 
 
-    def LoadXML(self, Mode="Blitz"):
+    def load_xml(self, Mode="Blitz"):
         file_name = Mode + ".xml"
         file_path = os.path.join(os.path.dirname(__file__), 'Data', file_name)
         return ET.parse(file_path).getroot()
