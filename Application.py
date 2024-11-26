@@ -1,6 +1,6 @@
 from PyQt5.QtCore import QSize, Qt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QHBoxLayout, QWidget, QLabel, QVBoxLayout, QWindow
-from PyQt5.QtGui import QPalette, QColor
+from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QHBoxLayout, QWidget, QLabel, QVBoxLayout
+from PyQt5.QtGui import QPalette, QColor, QWindow
 import sys
 from Character import Character
 
@@ -10,29 +10,40 @@ class MainWindow(QMainWindow):
         self.myCharacter = Character()
         self.setWindowTitle("My App")
 
-        HealthMonitor = QHBoxLayout()
-        decButton = QPushButton("-")
+        self.healthWidget = QWidget(self)
+        self.HealthMonitor = QHBoxLayout()
+        self.decButton = QPushButton("-")
         self.healthLabel = QLabel(str(self.myCharacter.health))
-        incButton = QPushButton("+")
+        self.incButton = QPushButton("+")
 
-        decButton.clicked.connect(self.LowerHealth)
-        incButton.clicked.connect(self.raise_health)
+        self.decButton.clicked.connect(self.LowerHealth)
+        self.incButton.clicked.connect(self.raise_health)
         
-        HealthMonitor.addWidget(decButton)
-        HealthMonitor.addWidget(self.healthLabel)
-        HealthMonitor.addWidget(incButton)
+        self.HealthMonitor.addWidget(self.decButton)
+        self.HealthMonitor.addWidget(self.healthLabel)
+        self.HealthMonitor.addWidget(self.incButton)
 
-        primLayout = QVBoxLayout()
+        self.primLayout = QVBoxLayout()
         self.Characer = QLabel(self.myCharacter.CharName)
-        btnResetBtn = QPushButton("Reset")
-        btnCharangeChar = QPushButton("Change Character")
+        self.btnResetBtn = QPushButton("Reset")
+
+        self.select_window = SelectWindow()  # Create the SelectWindow instance
+        self.btnCharangeChar = QPushButton("Change Character")
+        self.btnCharangeChar.clicked.connect(self.show_select_window)
+
+        self.primLayout.addWidget(self.Characer)
+        self.primLayout.addWidget(self.healthWidget)
+        self.primLayout.addWidget(self.btnResetBtn)
+        self.primLayout.addWidget(self.btnCharangeChar)
+
+        self.healthWidget.setLayout(self.HealthMonitor)
 
 
-        widget = QWidget()
-        widget.setLayout(HealthMonitor)
-        self.setCentralWidget(widget)
+        mainApp = QWidget()
+        mainApp.setLayout(self.primLayout)
+        self.setCentralWidget(mainApp)
 
-        self.setFixedSize(QSize(400,300))
+        
     def LowerHealth(self):
         self.myCharacter.health-=1
         self.update_health_text()
@@ -47,14 +58,18 @@ class MainWindow(QMainWindow):
         else:
             self.healthLabel.setText("You have lost!")
     
+    def show_select_window(self):
+        self.select_window.show()
 
-class SelectWindow(QWindow):
+class SelectWindow(QWidget):  # Change to inherit QWidget
     def __init__(self):
-        super.__init__(self)
+        super().__init__()
+        self.setWindowTitle("Select Character")
         self.ChangeButton = QPushButton("Blitz")
-        
-        SelectWindow = QVBoxLayout()
-        SelectWindow.addWidget(self.ChangeButton)
+        self.charSelect = Q
+        layout = QVBoxLayout()
+        layout.addWidget(self.ChangeButton)
+        self.setLayout(layout)
 
 
 
